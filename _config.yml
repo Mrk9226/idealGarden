@@ -4,3 +4,4 @@ description: Progettazione e manutenzione giardini a Bolzano.
 baseurl: "" # Lascia vuoto se è il dominio principale
 url: "https://tuoutente.github.io"
 theme: jekyll-theme-minimal
+markdown: kramdown

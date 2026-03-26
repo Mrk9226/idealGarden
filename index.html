@@ -3,67 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ideal Garden BZ | Cura e Manutenzione Giardini</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome per l'icona WhatsApp -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
-    <!-- Google Fonts -->
+    <title>Ideal Garden BZ</title>
+    <!-- Google Fonts: Roboto per MD3 -->
     <link href="https://fonts.googleapis.com" rel="stylesheet">
+    <!-- Font Awesome per icone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header & Navigazione -->
-    <header>
-        <nav class="navbar">
-            <div class="logo">IDEAL GARDEN <span>BZ</span></div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#servizi">Servizi</a></li>
-                <li><a href="#contatti">Contatti</a></li>
-            </ul>
-        </nav>
+    <header class="top-app-bar">
+        <div class="container">
+            <span class="headline-small">Ideal Garden <span class="text-primary">BZ</span></span>
+            <nav class="desktop-nav">
+                <a href="#" class="nav-item">Home</a>
+                <a href="#servizi" class="nav-item">Servizi</a>
+                <a href="#contatti" class="nav-item">Contatti</a>
+            </nav>
+        </div>
     </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Valorizziamo il tuo spazio verde</h1>
-            <p>Servizi su misura a 360° per la cura e la manutenzione di giardini a Bolzano.</p>
-            <a href="#servizi" class="btn">I Nostri Servizi</a>
-        </div>
-    </section>
+    <main>
+        <section class="hero-md3">
+            <div class="hero-card">
+                <h1 class="display-medium">Il tuo giardino, evoluto.</h1>
+                <p class="body-large">Design sostenibile e manutenzione professionale a Bolzano secondo i nuovi standard estetici.</p>
+                <button class="md3-btn-primary">Scopri di più</button>
+            </div>
+        </section>
 
-    <!-- Servizi Section -->
-    <section id="servizi" class="services">
-        <h2>Cosa Facciamo</h2>
-        <div class="service-grid">
-            <div class="service-card">
-                <i class="fas fa-leaf"></i>
-                <h3>Manutenzione</h3>
-                <p>Potatura siepi, cura del manto erboso e pulizia spazi aperti.</p>
+        <section id="servizi" class="container section-padding">
+            <h2 class="headline-medium text-center">I nostri servizi</h2>
+            <div class="md3-grid">
+                <!-- Card 1 -->
+                <div class="md3-card">
+                    <div class="card-icon"><i class="fas fa-scissors"></i></div>
+                    <h3 class="title-large">Manutenzione</h3>
+                    <p class="body-medium">Taglio erba e potatura con attrezzature a basso impatto acustico.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="md3-card">
+                    <div class="card-icon"><i class="fas fa-drafting-dots"></i></div>
+                    <h3 class="title-large">Progettazione</h3>
+                    <p class="body-medium">Rendering 3D e scelta botanica per il clima dell'Alto Adige.</p>
+                </div>
             </div>
-            <div class="service-card">
-                <i class="fas fa-seedling"></i>
-                <h3>Progettazione</h3>
-                <p>Realizzazione di aree verdi, semina e installazione manti a rotoli.</p>
-            </div>
-            <div class="service-card">
-                <i class="fas fa-tint"></i>
-                <h3>Irrigazione</h3>
-                <p>Installazione e manutenzione impianti di irrigazione automatizzati.</p>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Pulsante WhatsApp Flottante -->
-    <a href="https://wa.me" class="whatsapp-float" target="_blank" aria-label="Contattaci su WhatsApp">
+    <!-- WhatsApp Floating Action Button (FAB) - MD3 Style -->
+    <a href="https://wa.me" class="fab-whatsapp" target="_blank">
         <i class="fab fa-whatsapp"></i>
-        <span class="tooltip">Scrivici ora!</span>
+        <span class="fab-label">Chat</span>
     </a>
-
-    <footer>
-        <p>&copy; 2026 Ideal Garden BZ Srls - Bolzano</p>
-    </footer>
 
 </body>
 </html>

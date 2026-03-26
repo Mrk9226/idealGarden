@@ -3,4 +3,4 @@ email: idealgardenbz@gmail.com
 description: Progettazione e manutenzione giardini a Bolzano.
 baseurl: "" # Lascia vuoto se è il dominio principale
 url: "https://tuoutente.github.io"
-theme: minima # Un tema di base per iniziare, poi lo personalizzeremo
+theme: jekyll-theme-minimal
